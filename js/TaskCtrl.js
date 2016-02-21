@@ -12,6 +12,8 @@ angular.module ('todoList.controllers')
         $scope.tasksCol = PersistenceService.verify(localStorageKey) || [];
         $scope.lastID = PersistenceService.verify("taskLastID");
 
+
+        /**Llamada a la función getItem */
         $scope.item = PersistenceService.getItem($scope.tasksCol, currentID);
 
         if ($scope.item === undefined) {

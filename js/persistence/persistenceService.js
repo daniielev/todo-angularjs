@@ -16,6 +16,7 @@ angular.module('persistence.services')
             localStorage.removeItem(key);
         };
 
+        /**Esta funcion es para retornar el Id de cada tarea*/
         var getItem = function(tasksCollection, targetID) {
             var item;
 
@@ -28,6 +29,7 @@ angular.module('persistence.services')
             return item;
         };
 
+        /**Esta función es para retornar la posición de las tareas*/
         var getItemIndex = function (tasksCollection, targetID) {
             var index;
 
