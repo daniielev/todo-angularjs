@@ -3,7 +3,7 @@ TODO List construido con AngularJS
 
 Aplicación de tareas pendientes, hecha con las tecnologías HTML5, CSS3 y AngularJS. Utilizando recursos del navegador como `localStorage`.
 
-Dependences
+Dependencias
 -----------
 AngularJS, Angular Route Service, Servidor Local
 

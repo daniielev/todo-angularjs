@@ -8,13 +8,9 @@ angular.module('todoList',[
             templateUrl: 'views/taskList.html',
             controller : 'ToDoCtrl'
         })
-        .when('/:error', {
-            templateUrl: 'views/taskList.html',
-            controller : 'ToDoCtrl'
-        })
         .when('/description/:id', {
             templateUrl: 'views/taskDescription.html',
-            controller : 'TaskCtrl'      
+            controller : 'TaskCtrl'
         })
         .otherwise({redirectTo: '/'});
 }]);
